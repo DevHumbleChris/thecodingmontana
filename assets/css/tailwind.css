@@ -69,6 +69,7 @@
 @layer base {
   * {
     @apply border-border;
+    @apply font-raleway;
   }
   body {
     @apply bg-background text-foreground;

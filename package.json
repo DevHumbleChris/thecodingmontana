@@ -10,6 +10,9 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/fonts": "^0.7.1",
+    "@nuxt/icon": "^1.4.4",
+    "@nuxt/image": "^1.7.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-vue-next": "^0.424.0",
@@ -21,6 +24,7 @@
     "vue": "latest"
   },
   "devDependencies": {
+    "@iconify-json/uil": "^1.1.8",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "typescript": "^5.5.4"
   }

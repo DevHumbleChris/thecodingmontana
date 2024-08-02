@@ -24,3 +24,6 @@ logs
 !.env.example
 
 .vercel
+
+# @nuxt-fonts
+.data

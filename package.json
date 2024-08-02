@@ -17,6 +17,7 @@
     "clsx": "^2.1.1",
     "lucide-vue-next": "^0.424.0",
     "nuxt": "^3.12.4",
+    "nuxt-og-image": "3.0.0-rc.64",
     "radix-vue": "^1.9.2",
     "shadcn-nuxt": "^0.10.4",
     "tailwind-merge": "^2.4.0",
@@ -24,6 +25,7 @@
     "vue": "latest"
   },
   "devDependencies": {
+    "@iconify-json/ic": "^1.1.17",
     "@iconify-json/uil": "^1.1.8",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "typescript": "^5.5.4"

@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     "@nuxt/fonts",
     "@nuxt/image",
     "@nuxt/icon",
+    "nuxt-og-image",
   ],
   shadcn: {
     /**
@@ -25,5 +26,8 @@ export default defineNuxtConfig({
     experimental: {
       processCSSVariables: true,
     },
+  },
+  site: {
+    url: process.env.BASE_URL,
   },
 });

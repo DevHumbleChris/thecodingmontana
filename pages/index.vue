@@ -1,6 +1,12 @@
 <script setup lang="ts">
 import { Button } from "~/components/ui/button";
 import { Separator } from "~/components/ui/separator";
+
+defineOgImageComponent("PikaStyle", {
+  title: "The Coding Montana",
+  description:
+    "I'm Chris, frontend software developer living in Mombasa, Kenya. I specialize in building applications (web/mobile) and sites using Javascript, React, Vue & Node.",
+});
 </script>
 
 <template>

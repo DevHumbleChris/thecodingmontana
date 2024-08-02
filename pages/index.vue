@@ -52,6 +52,7 @@ defineOgImageComponent("PikaStyle", {
               quality="80"
               format="webp"
               class="w-full h-full rounded-[5rem]"
+              alt="@thecodingmontana"
             />
           </div>
           <div class="space-y-5 text-right">

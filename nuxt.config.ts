@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     "nuxt-og-image",
     "@nuxtjs/robots",
     "@nuxtjs/sitemap",
+    "nuxt-schema-org",
   ],
   nitro: {
     prerender: {
@@ -42,5 +43,13 @@ export default defineNuxtConfig({
   },
   sitemap: {
     sources: ["/api/sitemap"],
+  },
+  schemaOrg: {
+    identity: {
+      type: "Person",
+      name: "@thecodingmontana",
+      url: process.env.BASE_URL,
+      logo: "/images/icon.png",
+    },
   },
 });

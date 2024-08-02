@@ -19,6 +19,11 @@ useHead({
     { name: "twitter:site", content: "https://thecodingmontana.vercel.app/" },
   ],
   title: `The Coding Montana`,
+  htmlAttrs: { lang: "en" },
+  link: [
+    { rel: "icon", href: "/images/icon.png" },
+    { rel: "canonical", href: "https://thecodingmontana.vercel.app/" },
+  ],
 });
 </script>
 

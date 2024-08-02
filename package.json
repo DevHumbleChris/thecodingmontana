@@ -13,6 +13,8 @@
     "@nuxt/fonts": "^0.7.1",
     "@nuxt/icon": "^1.4.4",
     "@nuxt/image": "^1.7.0",
+    "@nuxtjs/robots": "^4.0.2",
+    "@nuxtjs/sitemap": "6.0.0-beta.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-vue-next": "^0.424.0",

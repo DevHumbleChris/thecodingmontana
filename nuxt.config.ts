@@ -9,7 +9,16 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@nuxt/icon",
     "nuxt-og-image",
+    "@nuxtjs/robots",
+    "@nuxtjs/sitemap",
   ],
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ["/", "sitemap.xml"],
+      ignore: ["/tak", "/konfiguration", "/checkout"],
+    },
+  },
   shadcn: {
     /**
      * Prefix for all the imported component
@@ -29,5 +38,9 @@ export default defineNuxtConfig({
   },
   site: {
     url: process.env.BASE_URL,
+    name: "The Coding Montana",
+  },
+  sitemap: {
+    sources: ["/api/sitemap"],
   },
 });

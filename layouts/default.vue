@@ -28,7 +28,10 @@ useHead({
 </script>
 
 <template>
-  <main>
+  <main
+    class="relative overflow-hidden before:absolute before:top-0 before:start-1/2 before:bg-[url('https://preline.co/assets/svg/examples/polygon-bg-element.svg')] before:bg-no-repeat before:bg-top before:bg-cover before:w-full before:h-full before:-z-[1] before:transform before:-translate-x-1/2 dark:before:bg-[url('https://preline.co/assets/svg/examples/polygon-bg-element-dark.svg')]"
+  >
+    <Header />
     <slot />
   </main>
 </template>

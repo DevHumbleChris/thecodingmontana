@@ -88,10 +88,10 @@ defineOgImageComponent("PikaStyle", {
             </div>
           </div>
         </div>
-        <div class="grid grid-cols-6 items-center gap-10 w-full">
-          <div class="col-span-2 self-start">
+        <div class="grid grid-cols-1 sm:grid-cols-6 items-center gap-10 w-full">
+          <div class="sm:col-span-2 self-start">
             <NuxtLink target="_blank" to="https://github.com/DevHumbleChris">
-              <Button variant="ghost" class="gap-2 uppercase group">
+              <Button variant="ghost" class="gap-1 sm:gap-2 uppercase group">
                 GitHub
                 <Icon
                   name="ic:twotone-arrow-outward"
@@ -99,7 +99,7 @@ defineOgImageComponent("PikaStyle", {
               /></Button>
             </NuxtLink>
             <NuxtLink target="_blank" to="https://twitter.com/AmChrisKE">
-              <Button variant="ghost" class="gap-2 uppercase group">
+              <Button variant="ghost" class="gap-1 sm:gap-2 uppercase group">
                 Twitter
                 <Icon
                   name="ic:twotone-arrow-outward"
@@ -110,7 +110,7 @@ defineOgImageComponent("PikaStyle", {
               target="_blank"
               to="https://www.linkedin.com/in/christopher-odhiambo-2870331aa/"
             >
-              <Button variant="ghost" class="gap-2 uppercase group">
+              <Button variant="ghost" class="gap-1 sm:gap-2 uppercase group">
                 LinkedIn
                 <Icon
                   name="ic:twotone-arrow-outward"
@@ -118,9 +118,11 @@ defineOgImageComponent("PikaStyle", {
               /></Button>
             </NuxtLink>
           </div>
-          <div class="col-span-4 grid grid-cols-5 items-center gap-5">
-            <Separator class="col-span-2" />
-            <p class="col-span-3">
+          <div
+            class="sm:col-span-4 grid grid-cols-5 sm:grid-cols-5 items-center gap-5"
+          >
+            <Separator class="col-span-1 sm:col-span-2" />
+            <p class="col-span-4 sm:col-span-3">
               I'm Chris, I specialize in building applications (web/mobile) and
               sites using Javascript, React, Vue & Node.
             </p>

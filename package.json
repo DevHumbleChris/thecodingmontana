@@ -15,6 +15,7 @@
     "@nuxt/image": "^1.7.0",
     "@nuxtjs/robots": "^4.0.2",
     "@nuxtjs/sitemap": "6.0.0-beta.1",
+    "@selemondev/vue3-marquee": "^0.0.8",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-vue-next": "^0.424.0",
@@ -28,9 +29,13 @@
     "vue": "latest"
   },
   "devDependencies": {
+    "@hypernym/nuxt-gsap": "^2.4.2",
+    "@iconify-json/bi": "^1.1.24",
     "@iconify-json/ic": "^1.1.17",
     "@iconify-json/uil": "^1.1.8",
     "@nuxtjs/tailwindcss": "^6.12.1",
+    "@vueuse/core": "^10.11.1",
+    "@vueuse/nuxt": "^10.11.1",
     "typescript": "^5.5.4"
   }
 }

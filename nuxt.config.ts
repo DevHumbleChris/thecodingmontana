@@ -12,6 +12,8 @@ export default defineNuxtConfig({
     "@nuxtjs/robots",
     "@nuxtjs/sitemap",
     "nuxt-schema-org",
+    "@hypernym/nuxt-gsap",
+    "@vueuse/nuxt",
   ],
   nitro: {
     prerender: {
@@ -51,5 +53,15 @@ export default defineNuxtConfig({
       url: process.env.BASE_URL,
       logo: "/images/icon.png",
     },
+  },
+  gsap: {
+    composables: true,
+    provide: false,
+    extraPlugins: {
+      scrollTrigger: true,
+      draggable: true,
+      scrollTo: true,
+    },
+    autoImport: true,
   },
 });

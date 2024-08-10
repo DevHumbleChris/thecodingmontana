@@ -1,0 +1,37 @@
+<div>
+      <!-- Card -->
+      <div
+        class="group relative block rounded-xl focus:outline-none w-[35rem]"
+        href="#"
+      >
+        <div
+          class="shrink-0 relative rounded-xl overflow-hidden w-full h-[350px] before:absolute before:inset-x-0 before:z-[1] before:size-full before:bg-gradient-to-t before:from-gray-900/70"
+        >
+          <img
+            class="size-full absolute top-0 start-0 object-cover"
+            src="https://images.unsplash.com/photo-1669828230990-9b8583a877ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80"
+            alt="Blog Image"
+          />
+        </div>
+
+        <div class="absolute bottom-0 z-50">
+          <div class="flex flex-col h-full p-4 sm:p-6">
+            <div>
+              <NuxtLink to="#">
+                <Icon name="bi:github" class="size-7 text-white" />
+              </NuxtLink>
+            </div>
+            <h3
+              class="text-lg sm:text-3xl font-semibold text-white group-hover:text-white/80 group-focus:text-white/80"
+            >
+              Facebook is creating a news section in Watch to feature breaking
+              news
+            </h3>
+            <p class="mt-2 text-white/80">
+              Facebook launched the Watch platform in August
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- End Card -->
+    </div>

@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import ProjectsClient from "~/components/Projects.client.vue";
+
 defineOgImageComponent("PikaStyle", {
   title: "The Coding Montana",
   description:
@@ -12,7 +14,7 @@ defineOgImageComponent("PikaStyle", {
     <div class="px-4 sm:px-6 lg:px-8 pt-16 sm:pt-10 pb-10 space-y-10">
       <Hero />
     </div>
-    <Projects />
+    <ProjectsClient />
     <!-- End Hero -->
   </section>
 </template>

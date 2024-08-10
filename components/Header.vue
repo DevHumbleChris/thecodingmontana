@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 
 <template>
   <header
-    class="px-4 sm:px-6 lg:px-8 pt-3 fixed top-0 left-0 right-0 w-full backdrop-blur-sm flex items-center justify-between"
+    class="px-4 sm:px-6 lg:px-8 pt-3 fixed top-0 left-0 right-0 w-full backdrop-blur-sm flex items-center justify-between z-40"
   >
     <p
       class="text-xl sm:text-2xl font-semibold tracking-tighter text-muted-foreground"

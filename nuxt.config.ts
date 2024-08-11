@@ -12,8 +12,8 @@ export default defineNuxtConfig({
     "@nuxtjs/robots",
     "@nuxtjs/sitemap",
     "nuxt-schema-org",
-    "@hypernym/nuxt-gsap",
     "@vueuse/nuxt",
+    "@nuxtjs/color-mode",
   ],
   nitro: {
     prerender: {
@@ -54,14 +54,14 @@ export default defineNuxtConfig({
       logo: "/images/icon.png",
     },
   },
-  gsap: {
-    composables: true,
-    provide: false,
-    extraPlugins: {
-      scrollTrigger: true,
-      draggable: true,
-      scrollTo: true,
-    },
-    autoImport: true,
+  colorMode: {
+    preference: "system", // default value of $colorMode.preference
+    fallback: "light", // fallback value if not system preference found
+    hid: "nuxt-color-mode-script",
+    globalName: "__NUXT_COLOR_MODE__",
+    componentName: "ColorScheme",
+    classPrefix: "",
+    classSuffix: "",
+    storageKey: "nuxt-color-mode-admin",
   },
 });

@@ -29,11 +29,11 @@
     "vue": "latest"
   },
   "devDependencies": {
-    "@hypernym/nuxt-gsap": "^2.4.2",
     "@iconify-json/bi": "^1.1.24",
     "@iconify-json/ic": "^1.1.17",
     "@iconify-json/lucide": "^1.1.205",
     "@iconify-json/uil": "^1.1.8",
+    "@nuxtjs/color-mode": "^3.4.2",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "@vueuse/components": "^10.11.1",
     "@vueuse/core": "^10.11.1",

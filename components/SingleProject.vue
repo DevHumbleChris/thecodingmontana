@@ -26,7 +26,7 @@ const project = toRef(props?.project);
       class="absolute inset-x-0 bottom-0 h-40 w-full bg-gradient-to-b from-transparent via-black to-black dark:via-black/50 dark:to-black scale-[1.1] pointer-events-none"
     />
 
-    <div class="absolute bottom-0 z-50">
+    <div class="absolute bottom-0 z-30">
       <div class="flex flex-col h-full p-4 sm:p-6 gap-2">
         <div class="flex items-center gap-4">
           <NuxtLink

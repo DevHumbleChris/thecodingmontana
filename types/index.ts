@@ -177,3 +177,6 @@ export const projects: Project[] = [
     imgUrl: "/images/projects/hounter.png",
   },
 ];
+
+export const githubUrl = "https://github.com/DevHumbleChris/thecodingmontana";
+export const twitterUrl = "https://x.com/AmChrisKE";

@@ -31,5 +31,6 @@ useHead({
   <main class="max-w-[85rem] mx-auto relative">
     <Header />
     <slot />
+    <Footer />
   </main>
 </template>

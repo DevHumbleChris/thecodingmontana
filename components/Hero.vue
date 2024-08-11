@@ -10,7 +10,7 @@ import { Separator } from "~/components/ui/separator";
     <!-- Title -->
     <div class="mt-5 max-w-2xl text-center mx-auto">
       <h1
-        class="block font-bold [text-wrap:balance] text-gray-800 text-3xl md:text-4xl lg:text-4xl text-center"
+        class="block font-bold [text-wrap:balance] text-gray-800 dark:text-white text-3xl md:text-4xl lg:text-4xl text-center"
       >
         Hey, its Christopher Odhiambo. <br />
         Frontend Software Engineer
